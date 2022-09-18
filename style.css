@@ -216,7 +216,6 @@ width: fit-content;
     flex-basis: 18%;
     padding-top: 32%;
     position: relative;
-    background-image: linear-gradient(transparent, rgba(0,0,0,0.5)),url(images/status-1.png);
     background-position: center;
     background-size: cover;
     border-radius: 10px;
@@ -227,7 +226,7 @@ width: fit-content;
     border-radius: 50%;
     top: 10px;
     left: 10px;
-    border-radius: 5px solid #626262;
+    border: 5px solid #626262;
 }
 .story p{
     position: absolute;
@@ -236,4 +235,19 @@ width: fit-content;
     text-align: center;
     color: #fff;
     font-size: 14px;
+}
+.story1{
+    background-image: linear-gradient(transparent, rgba(0,0,0,0.5)),url(images/status-1.png);
+}
+.story2{
+    background-image: linear-gradient(transparent, rgba(0,0,0,0.5)),url(images/status-2.png);
+}
+.story3{
+    background-image: linear-gradient(transparent, rgba(0,0,0,0.5)),url(images/status-3.png);
+}
+.story4{
+    background-image: linear-gradient(transparent, rgba(0,0,0,0.5)),url(images/status-4.png);
+}
+.story5{
+    background-image: linear-gradient(transparent, rgba(0,0,0,0.5)),url(images/status-5.png);
 }
