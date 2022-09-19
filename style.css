@@ -411,5 +411,16 @@ color: aqua;
     background: #9a9a9a;
     margin: 15px 0;
 }
+.settings-links{
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+}
+.setting-menu .setting-icon{
+    width: 38px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
 
 
